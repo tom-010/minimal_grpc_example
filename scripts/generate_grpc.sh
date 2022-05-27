@@ -8,7 +8,7 @@ protoc \
     --go-grpc_opt=paths=source_relative \
     proto/greeter.proto
 
-echo "generate go-clinet"
+echo "generate client"
 protoc \
     --go_out=client \
     --go_opt=paths=source_relative \
